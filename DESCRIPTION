@@ -1,0 +1,15 @@
+Package: GRDCFlowTools
+Type: Package
+Title: Deriving upstream basins from flow direction maps
+Version: 0.1.1
+Author: Thomas Recknagel
+Maintainer: Global Runoff Data Centre <grdc@bafg.de>
+Description: Tools for Flow Network Analysis
+License: GPL V3
+Encoding: UTF-8
+Imports: igraph, raster, SpaDES.tools, sf, terra
+Collate: 'GRDCFlowTools.R' 'createFlowGraph.R' 'createSplitFlowGraph.R'
+        'getBasinCells.R' 'getBasinCellsSplitGraph.R' 'getWatershed.R'
+RoxygenNote: 7.3.1
+NeedsCompilation: no
+Packaged: 2025-01-22 08:55:44 UTC; Plessow
